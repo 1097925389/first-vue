@@ -12,9 +12,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
-  // 配置前端服务地址和端口
-  server: {
-    host: '0.0.0.0'
   }
 })
